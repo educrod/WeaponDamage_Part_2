@@ -6,8 +6,8 @@ namespace WeaponDamage_Part_2
 {
     class SwordDamage : WeaponDamage
     {
-        public const int BASE_DAMAGE = 3; 
-        public const int FLAME_DAMAGE = 2;
+        private const int BASE_DAMAGE = 3; 
+        private const int FLAME_DAMAGE = 2;
 
         public SwordDamage(int startingRoll) : base(startingRoll) { }
         
